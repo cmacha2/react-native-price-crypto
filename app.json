@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "topprices",
+    "slug": "topprices",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ico.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/ico.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cmacha2.topprices",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ico.png",
+        "backgroundColor": "#FFFFFF"
+  
+      }
+    },
+    "web": {
+      "favicon": "./assets/ico.png"
+    }
+  }
+}
